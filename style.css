@@ -19,6 +19,7 @@ ul{
 }
 .language{
     margin: 30px 10px;
+    padding: 5px;
     background-color: rgb(116, 238, 197);
     border-radius: 25px;
 }
