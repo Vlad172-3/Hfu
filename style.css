@@ -8,19 +8,17 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Playfair Display', serif;
 }
 section{
     display: flex;
+    overflow: hidden;
 }
 main{
-    width: 65%;
+    width: 100%;
 }
 article{
-    background-color: blueviolet;
-}
-aside{
-    background-color: aqua;
-    width: 35%;
+    padding: 0px 20px;
 }
 footer{
     background-color: rgb(153, 153, 153);
@@ -34,16 +32,22 @@ header{
     box-shadow: 1px 1px 30px #000;
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    width: auto;
+}
+header h2{
+    padding-top: 20px;
+    overflow: hidden;
 }
 ul{
     list-style: none;
     margin: 0;
-    padding: 35px 10px;
+    padding: 15px 5px;
+    overflow: hidden;
 }
 .language{
-    margin: 30px 10px;
+    margin: 10px 10px;
     padding: 5px;
-    background-color: rgb(214, 214, 214);
     border-radius: 25px;
 }
 .blue{
@@ -65,10 +69,10 @@ li a{
     font-family: 'Playfair Display', serif;
     border-radius: 17px;
     font-size: 25px;
-    padding: 20px;
+    padding: 13px 25px;
     margin: 10px;
     color: rgb(0, 0, 0);
-    font-size: medium;
+    font-size: small;
 }
 li a:hover{
     color: rgb(27, 126, 255);
@@ -80,7 +84,6 @@ li{
     display: inline;
 }
 h1{
-    font-family: 'Playfair Display', serif;
     padding-top: 25px;
 }
 .contact h3{
@@ -107,7 +110,9 @@ h1{
   white-space: nowrap;
 }
 .content{
-    margin-left: 83px;
+    margin-left: 66px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 footer img{
     height: 20px;
@@ -115,4 +120,9 @@ footer img{
 aside h3{
     -webkit-text-size-adjust: auto;
     text-size-adjust: auto;
+}
+article img{
+    max-width: 100%;
+    width: 300px;
+    border-radius: 10px;
 }
