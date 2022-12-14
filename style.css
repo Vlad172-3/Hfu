@@ -87,35 +87,16 @@ h1{
     padding-top: 25px;
 }
 .contact h3{
-    margin-bottom: auto;
-}
-.contact h2{
-    margin-left: 20%;
-}
-.contact{
-    max-width: 500px;
-    width: auto;
-    max-height: 10%;
-    height: auto;
-}
-.wehave {
-  white-space: nowrap;
-  overflow: hidden;
-}
-.wehave br {
-  display: none;
-}
-.wehave * {
-  display: inline;
-  white-space: nowrap;
+    margin-right: 20px;
 }
 .content{
-    margin-left: 66px;
-    white-space: nowrap;
     overflow: hidden;
+    display: flex;
 }
 footer img{
     height: 20px;
+    border-radius: 5px;
+    margin: 0px 10px;
 }
 aside h3{
     -webkit-text-size-adjust: auto;
