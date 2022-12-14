@@ -3,6 +3,13 @@
     padding: 0;
     border: 0;
 }
+hr {
+ border: none; /* Убираем границу */
+ background-color: rgb(0, 0, 0); /* Цвет линии */
+ color: rgb(0, 0, 0); /* Цвет линии для IE6-7 */
+ height: 1px; /* Толщина линии */
+ margin: 15px;
+}   
 body{
     background-color: rgb(233, 233, 233);
     min-height: 100vh;
@@ -66,7 +73,6 @@ a{
 }
 li a{
     background-color: rgb(224, 224, 224);
-    font-family: 'Playfair Display', serif;
     border-radius: 17px;
     font-size: 25px;
     padding: 13px 25px;
@@ -86,24 +92,44 @@ li{
 h1{
     padding-top: 25px;
 }
-.contact h4{
-    margin-right: 20px;
+.brd{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
 }
-.content{
+.content h5{
+    margin-right: 10px;
+}
+.kontakt, .donate{
+    margin-top: 15px;
     overflow: hidden;
     display: flex;
+}
+.donate{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+.donate h5{
+    font-family: 'Playfair Display', serif;
+}
+.donate h6{
+    margin-top: 4px;
 }
 footer img{
     height: 20px;
     border-radius: 5px;
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 aside h3{
     -webkit-text-size-adjust: auto;
     text-size-adjust: auto;
 }
 article img{
+    margin: 10px;
     max-width: 100%;
-    width: 300px;
+    width: 600px;
     border-radius: 10px;
+}
+.typeofdonation{
+    margin-top: 10px;
 }
