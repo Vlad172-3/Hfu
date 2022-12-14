@@ -55,16 +55,29 @@ ul{
 .language{
     margin: 10px 10px;
     padding: 5px;
-    border-radius: 25px;
 }
-.blue{
+.current{
+    background-color: rgba(246, 250, 1, 0.562);
+}
+.current:hover{
+    animation-name: current_button;
+    animation-duration: 1s;
+    background-color: rgb(246, 250, 1);
     color: rgb(27, 126, 255);
 }
-@keyframes button {
-    from {background-color: rgba(0, 0, 0, 0);
+@keyframes current_button {
+    from {background-color: rgba(246, 250, 1, 0.562);;
         color: rgb(0, 0, 0);
     }
-    to {background-color: rgb(233, 255, 37);
+    to {background-color: rgb(246, 250, 1);
+        color: rgb(27, 126, 255);
+    }
+}
+@keyframes button {
+    from {background-color: rgb(224, 224, 224);
+        color: rgb(0, 0, 0);
+    }
+    to {background-color: rgb(246, 250, 1);
         color: rgb(27, 126, 255);
     }
 }
@@ -73,16 +86,16 @@ a{
 }
 li a{
     background-color: rgb(224, 224, 224);
-    border-radius: 17px;
+    border-radius: 14px;
     font-size: 25px;
-    padding: 13px 25px;
+    padding: 10px 20px;
     margin: 10px;
     color: rgb(0, 0, 0);
     font-size: small;
 }
-li a:hover{
+.button:hover{
     color: rgb(27, 126, 255);
-    background-color: rgb(233, 255, 37);
+    background-color: rgb(246, 250, 1);
     animation-name: button;
     animation-duration: 1s; 
 }
